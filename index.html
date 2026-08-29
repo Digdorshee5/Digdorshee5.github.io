@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digdorshee Ghosal — Data Engineer</title>
+  <meta name="description" content="Digdorshee Ghosal — Data Engineer. Skills | Tools | Experience" />
+  <link rel="icon" href="data:," />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- background particle canvas -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">DG</div>
+        <div>
+          <div class="name">Digdorshee Ghosal</div>
+          <div class="subtitle">Data Engineer • TCS</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-card reveal">
+        <h1>Hi — I’m <span class="accent">Digdorshee</span>.</h1>
+        <div id="typewriter" class="typewriter" aria-live="polite"></div>
+        <p class="lead">I design and build scalable, production-grade data pipelines using Azure, Databricks, and PySpark, with a growing focus on Generative AI.</p>
+
+        <div class="cta-row">
+          <a id="resume-link" class="btn" href="assets/resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/digdorshee-ghosal-4998a0200" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+
+        <div class="meta-row">
+          <div class="counter" title="Experience since start date">
+            <span class="muted">Experience</span>
+            <b id="years">0y</b> <span id="months">0m</span> <span id="days">0d</span>
+          </div>
+          <div class="muted">Kolkata, India</div>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal" aria-label="Profile">
+        <!-- Replace this file with your profile image (assets/profile.png) -->
+        <img id="profile-img" src="assets/profile.png" alt="Digdorshee Ghosal — profile">
+        <div class="profile-name">Digdorshee Ghosal</div>
+        <div class="profile-role">Data Engineer — TCS (Joined Feb 2025)</div>
+        <!-- <div class="profile-prev small">Previous Company — role ended Date</div> -->
+
+        <div class="profile-actions">
+          <a class="btn ghost" href="mailto:digdorsheeg@gmail.com">Email</a>
+          <a class="btn ghost" href="https://github.com/Digdorshee5" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="section-head"><h2>About</h2></div>
+      <div class="card">
+        <p class="muted">
+          I work on building and optimizing scalable, reliable, and production-grade data pipelines using the Azure data ecosystem. My work involves integrating data from multiple sources into Azure Data Lake Storage Gen2 (ADLS Gen2) and orchestrating end-to-end ETL/ELT workflows using Azure Data Factory (ADF). I focus on designing reusable and efficient pipeline workflows with appropriate scheduling, parameterization, dependencies, and data movement strategies.
+          <br><br>
+          In Azure Databricks, I develop data transformation pipelines using PySpark, SQL, Delta Lake, and Medallion Architecture (Bronze → Silver → Gold). I work across the data lifecycle, including data cleansing, transformation, validation, incremental processing, performance optimization, and preparing analytics-ready datasets. I also work with Unity Catalog and Databricks Workflows to support data governance, access management, and reliable workflow execution.
+          <br><br>
+          Beyond development, I focus on pipeline orchestration, monitoring, troubleshooting, data quality, and performance to ensure production-grade data solutions. I work with Azure DevOps and ServiceNow for task management, incident resolution, and collaboration while following Agile practices and development processes such as code reviews and controlled deployments. Alongside data engineering, I am expanding my expertise in Generative AI, exploring LLMs, RAG, embeddings, and AI-powered solutions to combine modern AI capabilities with scalable data engineering.        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <div class="section-head"><h2>Skills</h2></div>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Technical</h3>
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-row"><span>Python & Generative AI</span><span>75%</span></div>
+              <div class="bar"><i data-width="75%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>PySpark</span><span>80%</span></div>
+              <div class="bar"><i data-width="80%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>Azure Data Factory</span><span>82%</span></div>
+              <div class="bar"><i data-width="82%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>SQL & Data Modeling</span><span>85%</span></div>
+              <div class="bar"><i data-width="85%"></i></div>
+            </div>
+            <div class="skill">
+              <div class="skill-row"><span>Databricks & Delta Lake</span><span>87%</span></div>
+              <div class="bar"><i data-width="87%"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Tools</h3>
+          <ul class="muted">
+            <li><strong>Azure:</strong> Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS Gen2)</li>
+            <li><strong>Databricks:</strong> Azure Databricks, PySpark, Delta Lake, Unity Catalog, Databricks Workflows</li>
+            <li><strong>Data Engineering:</strong> Python, SQL, ETL/ELT, Medallion Architecture</li>
+            <li><strong>DevOps & Collaboration:</strong> Git, Azure DevOps, CI/CD, ServiceNow</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Process</h3>
+          <ul class="muted">
+            <li>Agile / Scrum, sprint planning, task estimation</li>
+            <li>Code reviews, Git workflows, CI/CD and controlled deployments</li>
+            <li>Pipeline monitoring, troubleshooting and incident resolution</li>
+            <li>Data quality checks, performance optimization and production support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section reveal">
+      <div class="section-head"><h2>Certifications</h2></div>
+
+      <div class="cert-grid">
+        <div class="cert-card" role="button" tabindex="0"
+            data-title="Databricks Certified Data Engineer Associate"
+            data-desc="A professional certification validating my knowledge of building and maintaining data engineering solutions using the Databricks Data Intelligence Platform. It demonstrates hands-on understanding of Apache Spark, PySpark, SQL, Delta Lake, data ingestion, data transformation, ETL/ELT workflows, and Lakeflow Declarative Pipelines. The certification strengthens my ability to design scalable data pipelines, work with modern lakehouse architectures, and develop reliable data engineering solutions on Databricks."
+            data-img="assets/cert1.png"
+            data-link="https://credentials.databricks.com/d9fbe7ec-cf7a-46b1-bdb2-bbc2906e89d0"
+            >
+          <img src="assets/cert1.png" alt="Databricks Certified Data Engineer Associate">
+          <div class="cert-title">Databricks Certified Data Engineer Associate</div>
+        </div>
+
+        <div class="cert-card" role="button" tabindex="0"
+            data-title="HackerRank SQL (Intermediate) Certificate"
+            data-desc="A certificate demonstrating my proficiency in intermediate-level SQL and practical data querying. It validates my ability to work with complex queries, joins, aggregations, subqueries, filtering, data manipulation, and analytical functions to extract and transform data efficiently. This certification strengthens my foundation in SQL for data engineering, data analysis, and building reliable data-driven solutions."
+            data-img="assets/cert2.png"
+            data-link="https://www.hackerrank.com/certificates/iframe/c4783a047603"
+            >
+          <img src="assets/cert2.png" alt="HackerRank SQL (Intermediate) Certificate">
+          <div class="cert-title">HackerRank SQL (Intermediate) Certificate</div>
+        </div>
+
+        <!-- <div class="cert-card" role="button" tabindex="0"
+            data-title="Certification Name Three"
+            data-desc="Short description of the certification"
+            data-img="assets/cert3.png"
+            >
+          <img src="assets/cert3.png" alt="Certification Three">
+          <div class="cert-title">Certification Name Three</div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal">
+      <div class="section-head"><h2>Experience</h2></div>
+      <div class="card timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="job-title">Data Engineer — TCS</div>
+            <div class="job-meta">Joined Feb 2025 — Present • Kolkata</div>
+            <ul class="muted">
+              <li>Building and optimizing scalable Azure data pipelines using ADF, Databricks, PySpark, and SQL.</li>
+              <li>Developing ETL/ELT workflows with ADLS Gen2, Delta Lake, and Medallion Architecture.</li>
+              <li>Implementing pipeline orchestration, monitoring, data quality, and performance optimization.</li>
+              <li>Supporting production workloads through troubleshooting, incident resolution, and Agile collaboration.</li>
+              <li>Using Git, Azure DevOps, and CI/CD for development and controlled deployments.</li>
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="timeline-item">
+          <div class="timeline-dot alt"></div>
+          <div class="timeline-body">
+            <div class="job-title">Previous Role — Previous Company</div>
+            <div class="job-meta">Start Date — End Date</div>
+            <ul class="muted">
+              <li>Key responsibility or achievement one.</li>
+              <li>Key responsibility or achievement two.</li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section reveal">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="cards-grid">
+        <div class="card">
+          <strong>B.Tech in CSE</strong>
+          <div class="muted small">MAKAUT — 8.91 CGPA</div>
+        </div>
+        <div class="card">
+          <strong>12th Grade</strong>
+          <div class="muted small">State Board(WBCHSE) — 80%</div>
+        </div>
+        <div class="card">
+          <strong>10th Grade</strong>
+          <div class="muted small">State Board(WBBSE) — 85%</div>
+        </div>
+      </div>
+    </section>
+
+<!-- Contact -->
+<section id="contact" class="section reveal">
+  <div class="section-head">
+    <h2>Contact</h2>
+  </div>
+
+  <div class="card footer">
+
+    <!-- Email -->
+    <div>
+      <strong>Email</strong>
+
+      <div class="contact-item muted small">
+        <a href="mailto:digdorsheeg@gmail.com">
+          digdorsheeg@gmail.com
+        </a>
+
+        <button
+          type="button"
+          class="copy-btn"
+          onclick="copyContact('digdorsheeg@gmail.com', this)"
+          aria-label="Copy email"
+          title="Copy email">
+
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+
+        </button>
+      </div>
+    </div>
+
+
+    <!-- LinkedIn -->
+    <div>
+      <strong>LinkedIn</strong>
+
+      <div class="contact-item">
+        <a
+          href="https://www.linkedin.com/in/digdorshee-ghosal-4998a0200/"
+          target="_blank"
+          rel="noopener">
+          linkedin.com/in/digdorshee-ghosal-4998a0200
+        </a>
+
+        <button
+          type="button"
+          class="copy-btn"
+          onclick="copyContact('https://www.linkedin.com/in/digdorshee-ghosal-4998a0200/', this)"
+          aria-label="Copy LinkedIn"
+          title="Copy LinkedIn">
+
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Phone -->
+    <div>
+      <strong>Phone</strong>
+
+      <div class="contact-item muted small">
+        <a href="tel:+919734571349">
+          91-9734571349
+        </a>
+
+        <button
+          type="button"
+          class="copy-btn"
+          onclick="copyContact('919734571349', this)"
+          aria-label="Copy phone number"
+          title="Copy phone number">
+
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1 2 2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <footer class="site-footer small">© <span id="year"></span>Digdorshee Ghosal · Built with passion for data engineering</footer>
+  </div>
+
+  <!-- Certification modal (hidden by default) -->
+  <div id="cert-modal" class="cert-modal" aria-hidden="true" role="dialog">
+    <div class="cert-modal-inner">
+      <button id="cert-close" class="cert-close" aria-label="Close">&times;</button>
+      <img id="cert-img" src="" alt="">
+      <h3 id="cert-title"></h3>
+      <p id="cert-desc" class="muted"></p>
+<a
+  id="cert-link"
+  class="btn"
+  href=data-link
+  target="_blank"
+  rel="noopener noreferrer">
+  View verification
+</a>
+    </div>
+  </div>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
